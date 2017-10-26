@@ -1,3 +1,5 @@
+[![Go Report card](https://goreportcard.com/badge/github.com/wolphin-project/prometheus-export)](https://goreportcard.com/report/github.com/wolphin-project/prometheus-export)
+
 # Prometheus v2 time series exporter
 
 This tool is designed to extract time series data from a Prometheus (v2) database
