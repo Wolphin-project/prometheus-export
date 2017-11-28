@@ -88,7 +88,7 @@ func csvWriter(rows chan Row, out io.Writer) {
 	writer := csv.NewWriter(out)
 	columns = append(columns, []string{"__name__", "__time__", "__value__"}...)
 	firstRow := <-rows
-	// Create a row for each included label
+	// Create a column for each included label
 	for label := range firstRow.Labels {
 		columns = append(columns, label)
 	}
